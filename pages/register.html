@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register page</title>
+	<link rel="stylesheet" href="../style/main.css">
+	<link rel="stylesheet" href="../style/default-style.css">
+</head>
+<body>
+	<header class="bg-[#023672] py-[25px]">
+		<div class="container">
+			<div class="flex items-center justify-between">
+				<a href="/">
+					<img class="block" width="286" height="50" src="../images/logo.svg" alt="Site logo">
+				</a>
+
+				<div class="flex items-center gap-5">
+					<!-- <button class="px-24 py-1.5 text-[#e8e8e8] text-[18px] rounded-[137px] bg-[#7f7f7f] cursor-pointer" >Royxatdan otish</button> -->
+					<!-- <button class="px-16 py-2 text-[18px] bg-white rounded-[207px] cursor-pointer login-btn" >Kirish</button> -->
+
+					<div class="">
+						<span class="block w-5 h-5 bg-red-300"></span>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</header>
+
+	<!-- Register section start ====================================== -->
+
+	<section class="">
+		<div class="container">
+			<div class="flex p-5 items-center">
+				
+				<div class="sm:block hidden w-1/2 relative">
+						
+					<img class="rounded-2x relative z-10" src="../images/registerbg.svg" alt="Form img">
+								
+				</div>
+				
+
+				<!-- Forma  -->
+				<div class="w-full sm:w-1/2">
+					<form class=" flex flex-col gap-3 register-form">
+						<label class="text-2xl font-bold" for="username">I.F.SH</label>
+						<input class="w-full h-[80px] border-2 border-solid border-[#000] rounded-[25px] px-4 text-black text-2xl username-input" type="text" id="username">
+					
+						<label class="text-2xl font-bold" for="email">E-mail</label>
+						<input class="w-full h-[80px] border-2 border-solid border-[#000] rounded-[25px] px-4 text-black text-2xl user-email-input" type="email" id="email">
+					
+						<label class="text-2xl font-bold" for="password">Parol</label>
+						<input class="w-full h-[80px] border-2 border-solid border-[#000] rounded-[25px] px-4 text-black text-2xl user-password-input" autocomplete="off" type="password" id="password">
+					
+						<label class="text-2xl font-bold" for="rewrite">Parolni takrorlang</label>
+						<input class="w-full h-[80px] border-2 border-solid border-[#000] rounded-[25px] px-4 text-black text-2xl user-rewrite-password-input" autocomplete="off" type="password" id="rewrite">
+					
+						<button type="submit" class="w-full text-center bg-[#023672] rounded-[25px] text-white py-4 text-2xl font-bold cursor-pointer register-form-btn">Davom etish</button>
+
+						<button type="submit" class="w-full text-center bg-[#023672] rounded-[25px] text-white py-4 text-2xl font-bold cursor-pointer login-btn">Kirish</button>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<!-- Register section end ====================================== -->
+
+	<script src="./js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>User type</title>
+	<link rel="stylesheet" href="../style/main.css">
+	<link rel="stylesheet" href="../style/default-style.css">
+</head>
+<body>
+	<header class="bg-[#023672] py-[25px]">
+		<div class="container">
+			<div class="flex items-center justify-between">
+				<a href="/">
+					<img class="block" width="286" height="50" src="../images/logo.svg" alt="Site logo">
+				</a>
+
+				<div class="flex items-center gap-5">
+					<!-- <button class="px-24 py-1.5 text-[#e8e8e8] text-[18px] rounded-[137px] bg-[#7f7f7f] cursor-pointer register-btn">Royxatdan
+						otish</button> -->
+					/
+
+					<div class="">
+						<span class="block w-5 h-5 bg-red-300"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="pt-16">
+		<div class="container">
+			<h1 class="hidden">
+				User type page
+			</h1>
+
+			<h2 class="text-[12px] md:text-[20px] font-bold uppercase flex items-center">
+				Ro'yhatdan otish <span class="block w-[50px] h-4 mx-8 bg-[url('../images/nextarrow.svg')] bg-no-repeat bg-center bg-cover shrink-0"></span> Foydalanuvchi turini tanlang
+			</h2>
+
+			<ul class="flex items-center flex-wrap justify-between py-14 md:py-20 gap-6">
+				<li class="flex p-4 items-center gap-[58px] w-full md:max-w-[596px] md:py-[37px] md:pe-[47px] md:ps-[57px] rounded-4xl shadow shadow-black transition-transform duration-300 hover:scale-105 cursor-pointer student shrink-0">
+					<img class="w-[80px] h-[80px] " src="../images/student.svg" alt="User type image">
+					<div class="">
+						<h3 class="text-3xl font-semibold md:text-5xl md:font-bold mb-4 md:mb-6">O'quvchi</h3>
+						<span class="text-xl font-semibold md:font-bold">Maktab o'quvchilari uchun hisob</span>
+					</div>
+				</li>
+
+				<li class="flex p-4 items-center gap-[58px] w-full md:max-w-[596px] md:py-[37px] md:pe-[47px] md:ps-[57px] rounded-4xl shadow shadow-black transition-transform duration-300 hover:scale-105 cursor-pointer student shrink-0">
+					<img class="w-[80px] h-[80px]" src="../images/teacher.svg" alt="User type image">
+					<div class="">
+						<h3 class="text-3xl font-semibold md:text-5xl md:font-bold mb-4 md:mb-6">O'qituvchi</h3>
+						<span class="text-xl font-semibold md:font-bold">Maktab o'qituvchilari uchun hisob</span>
+					</div>
+				</li>
+			</ul>
+
+			<div class="flex flex-col items-center md:justify-between md:flex-row">
+				<button class="rounded-[25px] pl-[120px] pe-4 py-3 text-2xl font-bold relative before:content-[''] before:absolute before:left-4 before:top-1/2 before:-translate-y-1/2 before:w-[100px] before:h-4 before:bg-[url('../images/backarrow.svg')] before:bg-cover before:bg-no-repeat border-2 border-[#000] cursor-pointer back-btn">Orqaga</button>
+				<div class="w-full flex items-center flex-col gap-2 pt-4 md:pt-0 md:w-[480px] md:flex-row">
+					<button type="submit" class="w-full text-center bg-[#023672] rounded-[25px] text-white py-4 text-2xl font-bold cursor-pointer next-btn">Davom etish</button>
+
+					<button type="submit" class="w-full text-center bg-[#023672] rounded-[25px] text-white py-4 text-2xl font-bold cursor-pointer login-btn">Kirish</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="./js/user-type.js"></script>
+</body>
+</html>
